@@ -44,3 +44,24 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.hover-item{
+  color: black;
+  transition: 0.3s ;
+}
+
+.hover-item:hover{
+  color: blue;
+}
+swiper-container {
+  width: 80%;
+  height: 40%;
+  line-height: 200px;
+  text-align: center;
+}
+
+.stocks{
+  margin-top: 150px;
+  /* margin-left: 300px;
+  margin-right: 100px; */
+}

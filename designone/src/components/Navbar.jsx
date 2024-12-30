@@ -80,14 +80,13 @@ const Navbar = () => {
             justifyContent: 'space-between',
           }}
         >
-          <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}>Invest</li> 
+          <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }} className='hover-item'>Invest</li> 
           <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}>Features</li> 
           <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}>Blogs</li> 
           <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}>Pricing</li> 
-          <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}>Disclosure</li> 
+          <li style={{ fontSize: '20px', cursor: 'pointer', margin: '0 10px' }}className='hover-item'>Disclosure</li> 
         </ul>
       </div>
-
      
       <div
         className="actions"
@@ -113,7 +112,7 @@ const Navbar = () => {
             boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
           }}
         >
-          <SupportAgentIcon sx={{ width: '24px', height: '24px', color: '#007BFF' }} />
+          <SupportAgentIcon sx={{ width: '30px', height: '30px', color: '#007BFF' }} />
         </div>
 
         
