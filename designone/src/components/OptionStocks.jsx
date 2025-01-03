@@ -21,7 +21,7 @@ return (
     <div>card 4</div>
     <div>card 5</div> */}
       <swiper-container slides-per-view="3" space-between="10" scrollbar-clickable="true" mousewheel-invert="true">
-            <swiper-slide><CardOverflow  fundoptions={fundoptions[0]} description={description[0]} /></swiper-slide>
+            <swiper-slide><CardOverflow fundoptions={fundoptions[0]} description={description[0]} /></swiper-slide>
             <swiper-slide><CardOverflow fundoptions={fundoptions[1]} description={description[1]}/></swiper-slide>
             <swiper-slide><CardOverflow fundoptions={fundoptions[2]} description={description[2]}/></swiper-slide>
             <swiper-slide><CardOverflow fundoptions={fundoptions[3]} description={description[3]}/></swiper-slide>
