@@ -1,7 +1,22 @@
+import { useState } from 'react';
 import logo from '../assets/download.png';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
-const Navbar = () => {
+const Navbar = ({toggleInput,setToggleInput}) => {
+  
+  const [value,setInputValue] = useState("");
+
+
+  const handleInput = (e)=>{
+    let InputVal = e.target.value;
+    setInputValue(InputVal);
+    
+  }
+
+  const OpenMenu = ()=>{
+    
+    setToggleInput(!toggleInput);
+  };
   return (
     <div
       className="Navbar"
@@ -47,7 +62,10 @@ const Navbar = () => {
       >
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search 'Vodafone Idea Ltd' "
+          onChange={handleInput}
+          onClick={OpenMenu}
+          value={value}
           style={{
             border: 'none',
             outline: 'none',
