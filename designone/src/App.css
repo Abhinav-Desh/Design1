@@ -71,12 +71,25 @@ swiper-container {
   cursor: pointer;
   padding: 5px 15px;
   border-radius: 5px;
+  margin-right: 10px;
   border: 1px solid grey;
   color: grey;
   background-color: rgb(25, 28, 31);
-  margin-right: 15px;
+  white-space: nowrap;  
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
 }
 
 .hover-buttons:hover {
-  border: 1px solid rgb(66, 65, 65);
+  background-color: rgb(66, 65, 65);
+  border: 1px solid rgb(66, 65, 65); 
+}
+
+
+.hover-options::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-options {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

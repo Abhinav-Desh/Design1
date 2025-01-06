@@ -63,6 +63,13 @@ const ZeroCost = () =>{
   <button className= "hover-buttons">HINDUNILVR</button>
 </div>
 
+<div style={{marginTop:"30px",color:'grey',fontSize:'15px',fontWeight:'600',marginBottom:'100px'}}>
+Disclaimer for the creative: Investments in the securities market are subject to market risks, read all the related documents carefully before investing. Mutual Fund investments are subject to market risks, read all scheme related documents carefully before investing. Mutual Funds are non-exchange traded products, and INDmoney is merely acting as a mutual fund distributor. All disputes with respect to distribution activity, would not have access to the exchange investor redressal forum or arbitration mechanism. This is nowhere to be considered as an advice,
+ recommendation or solicitation of an offer to buy or sell or subscribe for securities. INDstocks SIP/ Mini Save is a SIP feature that enables Customer(s) to save a fixed amount on a daily basis to invest in Indian Stock. INDmoney Private Limited 616, Level 6, Suncity Success Tower, Sector 65,
+  Gurugram, 122005, SEBI Stock Broking Registration No: INZ000305337, Trading and Clearing Member of NSE (90267, M70042) and BSE, 
+  BSE StarMF (6779), SEBI Depository Participant Reg. No. IN-DP-690-2022, Depository Participant ID: CDSL 12095500.
+   Refer https://indstocks.com/pricing?type=indian-stocks; https://www.indstocks.com/page/indian-stocks-sip-terms-and-condition for further details.
+   </div>
         </div>
     );
 }
