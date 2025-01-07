@@ -140,6 +140,7 @@ const Navbar = ({toggleInput,setToggleInput}) => {
             fontSize: '20px',
             fontWeight: '600',
             padding: '6px 14px',
+            textAlign:'center',
             borderRadius: '30px',
             cursor: 'pointer',
             border: '1px solid #007BFF',
@@ -155,6 +156,7 @@ const Navbar = ({toggleInput,setToggleInput}) => {
           style={{
             fontSize: '20px',
             fontWeight: '600',
+            textAlign:'center',
             padding: '6px 14px',
             borderRadius: '30px',
             backgroundColor: '#007BFF',
