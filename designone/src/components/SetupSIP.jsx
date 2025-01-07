@@ -4,10 +4,10 @@ const SetupSIP = () =>{
 return(
     <div style={{height:'700px', marginTop:'100px',padding:'30px'}}>
        <div className="parent" style={{display:'flex',justifyContent:'space-between',alignItems:'center' }}>
-            <div className="left-child" style={{width:'50%'}} >
+            <div className="left-child2"  >
                 <img src={setupImage} alt="" />
             </div>
-            <div className="right-child" style={{width:'50%',paddingRight:'25px'}}>
+            <div className="right-child2" >
             <p style={{fontSize:'100px',fontWeight:'600'}}>Setup SIP in 2 Minutes</p>
             <p style={{ color:'grey',marginTop:'10px',fontSize:'25px'}}>Set up SIP in Indian Stocks, Direct Mutual Funds, and US Stocks and diversify your portfolio to grow your Net Worth.</p>
             <button style={{ 

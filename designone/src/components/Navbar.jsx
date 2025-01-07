@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../assets/download.png';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
-const Navbar = ({ toggleInput, setToggleInput }) => {
+const Navbar = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView}) => {
   const [value, setInputValue] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false); 
   
@@ -21,7 +21,7 @@ const Navbar = ({ toggleInput, setToggleInput }) => {
 
   return (
     <div>
-      {/* Main Navbar */}
+     
       <div
         className="Navbar"
         style={{
@@ -31,9 +31,10 @@ const Navbar = ({ toggleInput, setToggleInput }) => {
           padding: '10px 20px',
           backgroundColor: '#fff',
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-          position: 'sticky',
+          position: 'fixed',
           top: '0',
-          zIndex: '10',
+          width:'100%',
+          zIndex: '999',
         }}
       >
         <div className="logo">
@@ -186,8 +187,8 @@ const Navbar = ({ toggleInput, setToggleInput }) => {
           top: '0',
           left: isMenuOpen ? '0' : '-250px',
           width: '250px',
-          height: '100vh',
-          borderRadius:'20px',
+          height: '100%',
+          borderRadius:'5px',
           backgroundColor: '#007BFF',
           boxShadow: '2px 0 5px rgba(0, 0, 0, 0.1)',
           padding: '20px',

@@ -1,13 +1,13 @@
 import homepage from '../assets/homepage-zero-cost-account-image.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-const ZeroCost = () =>{
+const ZeroCost = ({isMobileView, setIsMobileView}) =>{
 
     return(
         <div className="ZeroCost" style={{backgroundColor:'rgb(25, 28, 31)',marginTop:'20px',padding:'30px'}}>
             <div className="two-childs" style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-                <div className="left-child">
-            <h1 style={{color:'white',fontSize:'100px'}}>Zero* Cost Trading Account</h1>
-            <p style={{ fontWeight:'600',color:'grey',marginTop:'10px',fontSize:'30px'}}>Open a Demat account for Free*. Start Investing in Stocks,ETFs & Mutual Funds.</p>
+            <div className="left-child">
+            <p className="zero-cost-text" >Zero* Cost Trading Account</p>
+            <p style={{ fontWeight:'600',color:'grey',marginTop:'10px',fontSize:'30px',textAlign:'center'}}>Open a Demat account for Free*. Start Investing in Stocks,ETFs & Mutual Funds.</p>
             <button style={{ 
             letterSpacing:'2px',
             fontSize: '24px',

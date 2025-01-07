@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const OpenInput = ({ toggleInput, setToggleInput }) => {
+const OpenInput = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleButtonCategory = (index) => {
@@ -29,7 +29,7 @@ const OpenInput = ({ toggleInput, setToggleInput }) => {
     <div
       className="Input-menu"
       style={{
-        position: "fixed",
+        position: "absolute",
         top: "10%",
         left: "10%",
         width: "400px",
