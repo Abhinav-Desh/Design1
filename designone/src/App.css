@@ -130,3 +130,33 @@ swiper-container {
   transition: background-color 0.3s ease, border-color 0.3s ease; 
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media screen and (max-width: 480px) {
+ .hamburger{
+  display: block;
+ }
+ .searchBar{
+  display: none;
+ }
+ .navlists{
+  display: none;
+ }
+ .actions{
+  display: none;
+ }
+}
