@@ -29,18 +29,7 @@ const OpenInput = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView })
     <div
       className="Input-menu"
       style={{
-        position: "absolute",
-        top: "10%",
-        left: "10%",
-        width: "400px",
-        height: "400px",
-        padding: "15px 5px",
-        borderRadius: "10px",
-        backgroundColor: "rgb(239, 239, 239)",
-        border: "1px solid grey",
-        display: toggleInput ? "flex" : "none",
-        overflow: "scroll",
-        zIndex: "500",
+        display: toggleInput ? "block" : "none",
       }}
     >
       <div className="menu-container" style={{ display: "flex", flexDirection: "column" }}>

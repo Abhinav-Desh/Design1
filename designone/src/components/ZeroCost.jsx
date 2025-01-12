@@ -18,8 +18,10 @@ const ZeroCost = ({isMobileView, setIsMobileView}) =>{
             color: 'white',
             cursor: 'pointer',
              border:'none',
-            marginTop:'40px'}}>Open Free INDstocks A/C</button>
-            <button style={{fontSize:'20px',
+            marginTop:'40px',
+            marginBottom:'15px'
+            }}>Open Free INDstocks A/C</button>
+            <button style={{fontSize:'25px',
                             fontWeight:'500',
                             color:'#007BFF',
                             marginLeft:'40px',

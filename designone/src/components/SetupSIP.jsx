@@ -2,13 +2,13 @@ import setupImage from '../assets/homepage-setup-sip-in-2mins.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const SetupSIP = () =>{
 return(
-    <div style={{height:'700px', marginTop:'100px',padding:'30px'}}>
+    <div className='setup-sip' >
        <div className="parent" style={{display:'flex',justifyContent:'space-between',alignItems:'center' }}>
             <div className="left-child2"  >
                 <img src={setupImage} alt="" />
             </div>
             <div className="right-child2" >
-            <p style={{fontSize:'100px',fontWeight:'600'}}>Setup SIP in 2 Minutes</p>
+            <p style={{fontSize:'75px',fontWeight:'600'}}>Setup SIP in 2 Minutes</p>
             <p style={{ color:'grey',marginTop:'10px',fontSize:'25px'}}>Set up SIP in Indian Stocks, Direct Mutual Funds, and US Stocks and diversify your portfolio to grow your Net Worth.</p>
             <button style={{ 
             letterSpacing:'2px',
@@ -31,7 +31,7 @@ return(
             }}>SIP Calculator <ArrowForwardIcon/> </button>
             </div>
        </div>
-       <div className="hover-options" 
+       <div className="hover-options2" 
  style={{
   width: '100%',
   marginTop: '50px',

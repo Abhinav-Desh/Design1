@@ -13,6 +13,7 @@ const Navbar = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView}) => 
 
   const OpenMenu = () => {
     setToggleInput(!toggleInput);
+    setIsMenuOpen(false)
   };
 
   const toggleSideNav = () => {
@@ -59,6 +60,7 @@ const Navbar = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView}) => 
             borderRadius: '20px',
             padding: '5px 10px',
             width: '30%',
+            minWidth:'220px',
             maxWidth: '400px',
           }}
         >
@@ -181,19 +183,9 @@ const Navbar = ({ toggleInput, setToggleInput,isMobileView,setIsMobileView}) => 
 
      
       <div
-        
+        className='popUp-nav'
         style={{
-          position: 'fixed',
-          top: '0',
-          left: isMenuOpen ? '0' : '-250px',
-          width: '250px',
-          height: '100%',
-          borderRadius:'5px',
-          backgroundColor: '#007BFF',
-          boxShadow: '2px 0 5px rgba(0, 0, 0, 0.1)',
-          padding: '20px',
-          transition: 'left 0.3s ease', 
-          zIndex: '999',
+          left: isMenuOpen ? '0' :' -250px',
         }}
       >
         <ul

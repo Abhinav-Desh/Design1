@@ -9,7 +9,7 @@ const OptionStocks = ({isMobileView,setIsMobileView}) =>{
     ]
 return (
 <div className="OptionStocks">
-    <div className="Option-description" style={{display:"flex",flexDirection:"column",alignItems:'center',marginTop:'30px'}}>
+    <div className="Option-description" style={{display:"flex",flexDirection:"column",alignItems:'center',marginTop:'100px'}}>
 <p className='first-para' >Invest in Indian Stocks, US Stocks, Direct Mutual Funds, and Fixed Deposits.</p>
 <p className='second-para' >Set up your financial goals and link them with your investments on INDmoney.</p>
 </div>
